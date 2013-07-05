@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+footer,nav,section,header{
+    min-width: 760px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
+
+body{
+    text-align: center;
+    margin:auto;
+}
+
+#admin_options li{
+    display: inline;
+    float:left;
+    margin: 10px auto;
+}
+
+#the_footer{
+    clear: both;
+    text-align:center;
+    margin-left: auto;
+    margin-right-auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #eeeeee;
+    -webkit-border-radius: 5px;
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
+
+.center.navbar .nav,
+.center.navbar .nav > li{
+    float: none;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: top;
+}
+
+.center .navbar-inner{
+    text-align: center;
+}
+
+.table-scroll{
+    height: 500px;
+    overflow: auto;
+}
+
+.move-right{
+    float: right;
+}
+
+.left-side{
+    float: left;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.bold-text{
+    font: bold 15px Arial;
+}
